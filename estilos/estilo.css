@@ -1,0 +1,82 @@
+body{
+
+    text-align: center;
+    font-family: 'Cooper Black', Bold, serif;
+    font-weight: bold;
+    color: #011627;
+    font-size: 20px;
+    height: 100%;
+    background-color: #7D0F25;
+    background: url("../arquivo/background.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+::-webkit-scrollbar{
+
+    width: 0;
+    
+}
+
+
+@keyframes degrade {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+div h1{
+
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+    font-size: 60px;
+}
+
+a{
+
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+a:hover{
+
+    font-family: 'Bebas Neue', cursive;
+    color: #422F70;
+    font-size: 25px;
+    transition: 1.3s;
+}
+
+h2{
+
+    color: #FFFFFF;
+    margin-top: 1em;
+    font-size: 30px;
+}
+.money{
+
+    width: 200px;
+}
+#gaara{
+
+    align-items: flex-end;
+    justify-content: center;
+    width: 250px;
+}
+
+.botao{
+
+    background-color: #7D0F25;
+    margin: 20px auto;
+    padding: 8px 25px;
+    color: #100F0D;
+    border: solid  #100F0D;
+    border-radius: 15px;
+    font-size: 20px;
+}
